@@ -1,0 +1,128 @@
+/* App.css */
+
+/* Style for the main container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the App container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the header */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the input box */
+input {
+  align-items: center;
+  padding: 10px;
+  width: 50vw;
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.textare {
+  align-items: center;
+  padding: 10px;
+  width: 50vw;
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.response-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.response-container h2 {
+  margin-top: 0;
+}
+
+.response-container p,
+.response-container ol,
+.response-container ul {
+  margin: 10px 0;
+}
+
+.response-container code {
+  background-color: #eaeaea;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+/* Style for buttons */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the response container */
+.response-container {
+  margin-top: 20px;
+}
+
+.response-container h2 {
+  color: #007bff;
+}
+
+.response-container p {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Adding some responsiveness */
+@media only screen and (max-width: 600px) {
+  input {
+    width: 80%;
+  }
+
+  button {
+    width: 80%;
+    padding: 12px 0;
+  }
+}
+.sendicon {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  justify-content: center;
+  align-items: center;
+}
+.sendicon {
+  background-color: #0056b3;
+}
+.sendicon svg {
+  width: 20px;
+  height: 20px;
+}
